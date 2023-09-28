@@ -8,6 +8,7 @@ Compatible with OpenCart 3.x versions.
 * Redirect old and broken URL requests to new ones with 301 HTTP status code.
 * Smart update aliases when SEO URLs change so that requests to old URLs will always be redirected to the new URL.
 * Log both 301 redirect hits and broken requests that lead to 404 page.
+* Redirection the 404 pages to the search page with the first keyword or a tag (search, tag, description), if it exists.
 * Does not modify system files (OCMOD).
 
 ## Live demo

@@ -1,5 +1,11 @@
 # Change log
 
+## [1.1.0] - 2023.09.28:
+### Added
+- Redirect the 404 requests to the search page.
+### Internal
+- Improved handling of the 404 requests.
+
 ## [1.0.1] - 2023.09.28:
 ### Added
 - Alias table update button.
