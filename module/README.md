@@ -1,14 +1,14 @@
 # SEO Redirect
 
 ## Description
-**SEO Redirect** is an OpenCart extension that allows to redirect old or broken requests to a new URLs using HTTP 301 response status code. So customer browser will redirect to updated URLs and search engines will notified, that the requested resource have finally moved to a new URL, and they update their links to the resource.  
-Compatible with OpenCart 3.x versions.
+**SEO Redirect** is an OpenCart extension that allows to redirect requests to outdated URLs to new URLs using HTTP 301 response status code. This way, search engines will be notified that the requested resource has finally moved to a new URL, and they will update their links to the resource. Also allows to log broken (404) requests and redirect them to the search page.  
+Compatible with OpenCart 3x versions.
 
 ## Features
-* Redirect old and broken URL requests to new ones with 301 HTTP status code.
-* Smart update aliases when SEO URLs change so that requests to old URLs will always be redirected to the new URL.
-* Log both 301 redirect hits and broken requests that lead to 404 page.
-* Redirection the 404 pages to the search page with the first keyword or a tag (search, tag, description), if it exists.
+* Redirection from old URLs to corresponding new URLs with an HTTP 301 status code.
+* Smart update aliases when the store admin change SEO URLs, thus requests to the old URLs will always be redirected to the new ones.
+* Log broken requests that lead to 404 page.
+* Redirecting the 404 pages to the search page with the first keyword or a tag (search, tag, description), if it exists.
 * Does not modify system files (OCMOD).
 
 ## Live demo
