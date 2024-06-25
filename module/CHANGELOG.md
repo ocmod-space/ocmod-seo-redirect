@@ -3,8 +3,8 @@
 ## [1.1.1] - 2024.06.25:
 ### Fixed
 - Redirection to the search page after emptying the cart.
-### Change
-- Glyphicon to fontawesome.
+### Changed
+- Icons (glyphicons to fontawesome).
 
 ## [1.1.0] - 2023.09.28:
 ### Added
