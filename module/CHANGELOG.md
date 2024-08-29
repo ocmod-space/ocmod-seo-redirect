@@ -1,5 +1,9 @@
 # Change log
 
+## [1.1.2] - 2024.08.29:
+### Internal
+- Improved compatibility.
+
 ## [1.1.1] - 2024.06.25:
 ### Fixed
 - Redirection to the search page after emptying the cart.
