@@ -5,7 +5,7 @@
 Compatible with OpenCart 3x versions.
 
 ## Features
-* Tracking  and logging SEO URL changes to further redirect all outdated requests to updated ones using HTTP 301 status code.
+* Tracking SEO URL changes to redirect outdated requests to updated ones using HTTP 301 status code.
 * Log erroneous requests that lead to 404 page.
 * Optionally redirecting erroneous requests to the search page.
 * Does not modify system files (OCMOD).
