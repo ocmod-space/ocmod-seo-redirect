@@ -1,14 +1,13 @@
 # SEO Redirect
 
 ## Description
-**SEO Redirect** is an OpenCart extension that allows to redirect requests to outdated URLs to new URLs using HTTP 301 response status code. This way, search engines will be notified that the requested resource has finally moved to a new URL, and they will update their links to the resource. Also allows to log broken (404) requests and redirect them to the search page.  
+**SEO Redirect** is an OpenCart extension that allows to redirect requests to outdated SEO URLs to new ones using HTTP 301 response status code. This way search engines will be notified that the requested resource has finally moved to the new URL and will update their links to the resource. Also the  extension allows to log erroneous (404) requests and redirect them to the search page.  
 Compatible with OpenCart 3x versions.
 
 ## Features
-* Redirection from old URLs to corresponding new URLs with an HTTP 301 status code.
-* Smart update aliases when the store admin change SEO URLs, thus requests to the old URLs will always be redirected to the new ones.
-* Log broken requests that lead to 404 page.
-* Redirecting the 404 pages to the search page with the first keyword or a tag (search, tag, description), if it exists.
+* Tracking  and logging SEO URL changes to further redirect all outdated requests to updated ones using HTTP 301 status code.
+* Log erroneous requests that lead to 404 page.
+* Optionally redirecting erroneous requests to the search page.
 * Does not modify system files (OCMOD).
 
 ## Live demo
@@ -24,4 +23,4 @@ Compatible with OpenCart 3x versions.
 
 ## Related extensions
 * [**SEO Path**](https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=38192) - is a simple but powerful extension that allows to control store URLs and breadcrumb trails, implement static pagination, uses smart redirection, improve important aspects of multilingual stores and other things to make store more SEO-friendly.
-* [**SEO Common Urls**](https://github.com/ocmod-space/ocmod-seo-common-urls) - is an extension that assigns SEO keywords for the common URLs and removes.
+* [**SEO Common Urls**](https://github.com/ocmod-space/ocmod-seo-common-urls) - is an extension to assign SEO keywords for the common URLs and to remove `index.php?route=common/home` from the home page URL.
