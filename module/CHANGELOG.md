@@ -1,5 +1,9 @@
 # Change log
 
+## [1.1.3] - 2024.09.13:
+### Fixed
+- Minor CSS issue in admin.
+
 ## [1.1.2] - 2024.08.29:
 ### Internal
 - Improved compatibility.
