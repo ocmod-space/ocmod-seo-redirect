@@ -1,5 +1,13 @@
 # Change log
 
+## [1.2.0] - 2025.06.25:
+### Fixed
+- Escaping of old SEO URLs in the database before saving.
+- Optimization in SQL queries for better performance.
+- DB-table structure update to support new features.
+### Internal
+- Changed file structure.
+
 ## [1.1.3] - 2024.09.13:
 ### Fixed
 - Minor CSS issue in admin.

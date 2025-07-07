@@ -1,25 +1,31 @@
-# SEO Redirect
+# Seo Redirect
 
 ## Description
-The **SEO Redirect** OpenCart extension allows to redirect requests to outdated SEO URLs to new ones using HTTP 301 response status code. This way search engines will be notified that the requested resource has finally moved to the new URL and will update their links to the resource. Also the  extension allows to log erroneous (404) requests and redirect them to the search page.  
-Compatible with OpenCart 3x versions.
+**SEO Redirect** module tracks and logs changes to SEO URLs, automatically redirecting outdated URLs to their updated versions using HTTP 301 status codes.
+
+Compatible with OpenCart 3.x (PHP ≥ 7.x).
+
+Note: The source code is encrypted. For purchase and licensing information, see the OpenCart Marketplace link in the **Download** section.
 
 ## Features
-* Tracking SEO URL changes to redirect outdated requests to updated ones using HTTP 301 status code.
-* Log erroneous requests that lead to 404 page.
-* Optionally redirecting erroneous requests to the search page.
-* Does not modify system files (OCMOD).
+* Tracks SEO URL changes and redirects outdated requests to updated URLs using HTTP 301.
+* Optionally redirects 404 requests to the search page.
+* Logs erroneous (404) requests for analysis.
+* Fully compatible with the **Journal** theme.
+* No core file modifications (uses OCMOD).
+
+## Restrictions
+This module does not work and is not supported for stores using the following domain extensions: `.ru`,`.рф`,`.рус`,`.by`,`.бел`,`.su`.
 
 ## Live demo
-* Extension [settings](https://demo.ocmod.space/a/admin/index.php?route=extension/module/seo_redirect).
-* [Store Front](https://demo.ocmod.space/a).
+* [Admin dashboard](https://demo.ocmod.space/a/admin/index.php?route=extension/module/seo_redirect)
+* [Storefront](https://demo.ocmod.space/a/)
 
 ## License
-[End-user License Agreement](https://raw.githubusercontent.com/ocmod-space/ocmod-seo-redirect/main/EULA.txt).
+[End-User License Agreement](../EULA.en.txt)
 
-## Links
-* **SEO Redirect** on [**OpenCart Marketplace**](https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=45459).
-* [**SEO Redirect**](https://www.ocmod.space/seo-redirect) web page.
+## Download
+[OpenCart Marketplace](https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=38192)
 
 ## Related extensions
 * [**SEO Path**](https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=38192) - is a simple but powerful extension that allows to control store URLs and breadcrumb trails, implement static pagination, uses smart redirection, improve important aspects of multilingual stores and other things to make store more SEO-friendly.
