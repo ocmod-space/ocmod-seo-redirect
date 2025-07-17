@@ -1,5 +1,9 @@
 # Change log
 
+## [1.2.1] - 2025.07.17:
+### Fixed
+- Added automatic cleanup of duplicate request entries in tables before applying a UNIQUE constraint, preventing migration failure on existing data.
+
 ## [1.2.0] - 2025.06.25:
 ### Fixed
 - Escaping of old SEO URLs in the database before saving.
